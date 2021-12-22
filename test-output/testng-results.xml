@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12156" started-at="2021-12-22T15:56:30 IST" finished-at="2021-12-22T15:56:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12156" started-at="2021-12-22T15:56:30 IST" finished-at="2021-12-22T15:56:42 IST">
+      <class name="seleniumwithtestng.testngproject.AppTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:seleniumwithtestng.testngproject.AppTest@7cbd213e]" name="beforeTest" is-config="true" duration-ms="4453" started-at="2021-12-22T15:56:30 IST" finished-at="2021-12-22T15:56:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testcase_1()[pri:0, instance:seleniumwithtestng.testngproject.AppTest@7cbd213e]" name="testcase_1" duration-ms="6855" started-at="2021-12-22T15:56:35 IST" finished-at="2021-12-22T15:56:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumwithtestng.testngproject.AppTest@7cbd213e]" name="afterTest" is-config="true" duration-ms="776" started-at="2021-12-22T15:56:42 IST" finished-at="2021-12-22T15:56:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumwithtestng.testngproject.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
