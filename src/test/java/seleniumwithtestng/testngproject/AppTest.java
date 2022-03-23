@@ -12,18 +12,18 @@ public class AppTest {
 	WebDriver driver;
   @BeforeTest
   public void beforeTest() {
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinot\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinot\\Downloads\\softwares\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
   }
 
 
 @Test
 public void testcase_1() throws InterruptedException {
-	driver.navigate().to("https://neowise.examly.io/");
+	driver.navigate().to("https://admin.neocoder.examly.io/");
 	Thread.sleep(5000);  
 	String title = driver.getTitle();
-	Assert.assertEquals(title, "NeoWise");
+	Assert.assertEquals(title, "NeoCoder");
 }
 
 
